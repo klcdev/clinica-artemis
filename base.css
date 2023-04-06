@@ -1,0 +1,249 @@
+
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #175867;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    background-color:  #175867;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#pagina-inicial:hover {
+    transition: 0.3s;
+    font-size: 18px;
+    color: black;
+} 
+
+#sobre-nos:hover {
+    transition: 0.3s;
+    font-size: 18px;
+    color: black;
+} 
+
+#horarios:hover {
+    transition: 0.3s;
+    font-size: 18px;
+    color: black;
+} 
+
+#contato:hover {
+    transition: 0.3s;
+    font-size: 18px;
+    color: black;
+} 
+
+
+.header {
+    background-color: #024959;
+    color: white;
+    min-height: 100px;
+    padding-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight:600;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.banner-top {
+     width: 950px;
+}
+
+/*Página "Sobre nós"*/
+.missao-visao {
+    background-color: rgb(214, 214, 214);
+border-radius: 20px;
+    width: 920px;
+    height: 115px;
+   padding-top: 0px;
+   padding-left: 30px;
+   padding-bottom: 15px;
+    justify-content: center;
+
+}
+
+/*Página "Sobre nós"*/
+.content-missao {
+    width: 450px;
+    display: inline-block;
+    margin: auto;
+}
+
+/*Página "Sobre nós"*/
+.content-visao {
+    width: 450px;
+    display: inline-block;
+    margin: auto;
+}
+
+
+.footer {
+    background-color: #545454;
+    color: white;
+    min-height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+/*Página "Horário de Atendimento"*/
+table {
+    background-color:  rgb(214, 214, 214);
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+
+/*Página "Horário de Atendimento"*/
+th {
+    background-color: #024959;
+    border-radius: 15px;
+    color: white;
+}
+
+/*Página "Horário de Atendimento"*/
+.servico {
+    background-color:rgb(184, 184, 184);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+/*Página "Horário de Atendimento"*/
+td {
+    border-radius: 15px;
+}
+
+/*Página "Horário de Atendimento"*/
+td:hover {
+    transition: 0.6s;
+    color: black;
+    background-color: white;
+}
+
+/*Página "Horário de Atendimento"*/
+th:hover {
+    transition: 0.6s;
+    color: black;
+    background-color: white;
+}
+
+/*Página "Contato"*/
+.formulario {
+
+}
+
+fieldset {
+    border: none;
+    background-color: rgb(234, 231, 231);
+    border-radius: 15px;
+}
+
+input {
+    margin: 3px;
+}
+
+.dados-form label {
+    width: 150px;
+    display: inline-block;
+    text-align: right;
+}
+
+.rodape-form label {
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+}
+
+input[type=text] {
+    border-radius: 5px;
+    border: none;
+   
+}
+
+input[type=email] {
+    border-radius: 5px;
+    border: none;
+}
+
+
+.botao-enviar {
+    color: white;
+    background-color: #024959;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+
+.botao-limpar {
+    color: white;
+    background-color: #024959;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 50px;
+}
+
+.botao-enviar:hover {
+    transition: 0.3s;
+       border-radius: 50px;
+       padding: 7px 25px;
+    background-color: #d4d4d4;
+    color: black;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+
+}
+
+.botao-limpar:hover {
+    transition: 0.3s;
+       border-radius: 50px;
+       padding: 7px 25px;
+    background-color: #d4d4d4;
+    color: black;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+
+}
+
+textarea {
+    width: 290px;
+    resize: vertical;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+}
+
+iframe {
+    border-radius: 50px;
+    padding: 50px;
+}
